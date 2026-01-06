@@ -11,3 +11,4 @@ pause
 powershell -ExecutionPolicy Bypass -File "%~dp0reset_postgres_password.ps1"
 pause
 
+
