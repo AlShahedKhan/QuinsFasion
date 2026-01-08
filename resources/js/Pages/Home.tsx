@@ -5,7 +5,6 @@ const Home: React.FC = () => {
     return (
         <MainLayout>
             <h1>Welcome to the Home Page</h1>
-            {/* Welcome page */}
         </MainLayout>
     );
 };
