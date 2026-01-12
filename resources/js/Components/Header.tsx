@@ -91,5 +91,4 @@ const Header: React.FC = () => {
         </header>
     );
 };
-// Hi
 export default Header;
