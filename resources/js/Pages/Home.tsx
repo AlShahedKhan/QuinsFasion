@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../Layouts/MainLayout";
 
+// Hi
 const Home: React.FC = () => {
     return (
         <MainLayout>
