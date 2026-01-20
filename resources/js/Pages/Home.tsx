@@ -4,6 +4,9 @@ import ServicesSection from "../Components/ServicesSection";
 import ProductCategoriesSection from "../Components/ProductCategoriesSection";
 import TransparentPricingSection from "../Components/TransparentPricingSection";
 import ServiceFeesSection from "../Components/ServiceFeesSection";
+import WhyChooseSection from "../Components/WhyChooseSection";
+import HowItWorksSection from "../Components/HowItWorksSection";
+import ProductInquiryFormSection from "../Components/ProductInquiryFormSection";
 
 // Hi
 const Home: React.FC = () => {
@@ -55,6 +58,9 @@ const Home: React.FC = () => {
             <ProductCategoriesSection />
             <TransparentPricingSection />
             <ServiceFeesSection />
+            <WhyChooseSection />
+            <HowItWorksSection />
+            <ProductInquiryFormSection />
         </MainLayout>
     );
 };
