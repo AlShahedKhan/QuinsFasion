@@ -8,9 +8,11 @@ const Header: React.FC = () => {
     const navItems = useMemo(
         () => [
             { label: "Home", href: "/" },
-            { label: "About", href: "/about" },
-            { label: "Services", href: "/#services" },
-            { label: "Contact", href: "/contact" },
+            { label: "Become a Partner", href: "/partner" },
+            { label: "Logistics", href: "/logistics" },
+            { label: "Fashion", href: "/fashion" },
+            { label: "Global Trading", href: "/global-trading" },
+            { label: "Debt Collection", href: "/debt-collection" },
         ],
         []
     );

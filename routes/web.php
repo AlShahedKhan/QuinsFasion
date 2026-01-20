@@ -11,6 +11,10 @@ Route::get('/', function (){
     return Inertia::render('Home');
 });
 
+Route::get('/fashion', function (){
+    return Inertia::render('Fasion');
+});
+
 Route::get('/services', function (){
     return Inertia::render('Services');
 });
