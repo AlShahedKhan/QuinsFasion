@@ -1,5 +1,6 @@
 import React from "react";
 import MainLayout from "../Layouts/MainLayout";
+import ServicesSection from "../Components/ServicesSection";
 
 // Hi
 const Home: React.FC = () => {
@@ -47,6 +48,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <ServicesSection />
         </MainLayout>
     );
 };

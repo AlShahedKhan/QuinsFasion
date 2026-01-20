@@ -9,13 +9,14 @@ const Header: React.FC = () => {
         () => [
             { label: "Home", href: "/" },
             { label: "About", href: "/about" },
-            { label: "Services", href: "/services" },
+            { label: "Services", href: "/#services" },
             { label: "Contact", href: "/contact" },
         ],
         []
     );
 
-    const currentPath = typeof window !== "undefined" ? window.location.pathname : "";
+    const currentPath =
+        typeof window !== "undefined" ? `${window.location.pathname}${window.location.hash}` : "";
     const isActive = (href: string) => currentPath === href;
 
     useEffect(() => {
