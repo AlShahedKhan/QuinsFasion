@@ -1,6 +1,9 @@
 import React from "react";
 import MainLayout from "../Layouts/MainLayout";
 import ServicesSection from "../Components/ServicesSection";
+import ProductCategoriesSection from "../Components/ProductCategoriesSection";
+import TransparentPricingSection from "../Components/TransparentPricingSection";
+import ServiceFeesSection from "../Components/ServiceFeesSection";
 
 // Hi
 const Home: React.FC = () => {
@@ -49,6 +52,9 @@ const Home: React.FC = () => {
                 </div>
             </section>
             <ServicesSection />
+            <ProductCategoriesSection />
+            <TransparentPricingSection />
+            <ServiceFeesSection />
         </MainLayout>
     );
 };
